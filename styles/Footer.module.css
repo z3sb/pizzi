@@ -1,0 +1,16 @@
+.container {
+  background-color: #222;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.text {
+  font-size: 20px;
+}
+.link {
+  transition: 0.3s;
+}
+.link:hover {
+  color: #d1411e;
+}
