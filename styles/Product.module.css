@@ -90,3 +90,62 @@
   color: #fff;
   background: #d1411e;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .imgContainer {
+    width: 70vw;
+    height: 70vw;
+  }
+  .title {
+    margin: 10px 0;
+  }
+  .price {
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    width: fit-content;
+  }
+  .desc {
+    text-align: center;
+    line-height: 1.8;
+    color: #333;
+    margin: 10px 0;
+  }
+  .sizes {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .choose {
+    margin: 10px 0;
+  }
+  .ingredients {
+    flex-direction: column;
+  }
+  .option {
+    margin: 10px;
+    font-size: 18px;
+  }
+  .checkbox {
+    width: 25px;
+    height: 25px;
+  }
+  .quantity,
+  .button {
+    height: 50px;
+    width: 40%;
+  }
+  .add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quantity {
+    padding: 10px;
+  }
+}
